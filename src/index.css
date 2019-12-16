@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.body {
+  margin: 0;
+  /* border:2px solid #6dd89d;
+ margin: 10px; */
+} @media only screen and (max-width:1900px) {
+  body {
+    background-color: #e1f0f3;
+    color: rgb(38, 39, 39);
+  }
+} @media only screen and (max-width:1600px) {
+  body {
+    background-color: rgb(119, 231, 225);
+    color: #5654db;
+  }
+
+} @media only screen and (max-width:1400px) {
+  body {
+    background-color: rgb(165, 247, 242);
+    color: rgb(22, 22, 22);
+  }
+
+} @media only screen and (max-width:1200px) {
+  body {
+    background-color: rgb(142, 226, 241);
+    color: rgb(19, 18, 18);
+  }
+} @media only screen and (max-width:800px) {
+  body {
+    background-color: rgb(143, 204, 240);
+    color: rgb(10, 10, 10);
+  }
+} @media only screen and (max-width:600px) {
+  body {
+    background-color: rgb(199, 232, 238);
+    color: rgb(26, 25, 24);
+  }
+}
+.Header{
+  text-align: center;
+  }
+ 
+ .Container {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+   }
