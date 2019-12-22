@@ -6,4 +6,6 @@
     text-align: center;
   }
 
-  
+.btn btn-primary btn-lg {
+  align-items: center;
+}
