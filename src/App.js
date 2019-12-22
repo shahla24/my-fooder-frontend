@@ -3,7 +3,11 @@ import Header from './Header';
 import TaskItem from './TaskItem';
 import Restaurants from './Restaurants';
 import Booking from './Booking';
-import images from './images/hala.jpeg';
+import vegan from './vegan.jpeg';
+import hala from './hala.jpeg';
+import glutenfree from './glutenfree.png';
+import vegetarian from './vegetarian.jpeg';
+import pesca from './pesca.png';
 import "./App.css";
 
 
@@ -20,7 +24,7 @@ function App() {
   <br />
   <div class="row">
     <div class="col-sm">
-    <img src={images} alt="halal" class="rounded-circle" />
+    <img src={hala} alt="halal" class="rounded-circle" />
     <br/>
     Halal
       <div class="input">
@@ -28,7 +32,7 @@ function App() {
     </div>
     </div>
     <div class="col-sm">
-    <img src={images} alt="Pescatarian" class="rounded-circle" />
+    <img src={pesca} alt="Pescatarian" class="rounded-circle" />
     <br/>
       Pescatarian
       <div class="input">
@@ -36,7 +40,7 @@ function App() {
     </div>
     </div>
     <div class="col-sm">
-    <img src={images} alt="Gluten Free" class="rounded-circle"></img>
+    <img src={glutenfree} alt="Gluten Free" class="rounded-circle"></img>
     <br/>
       Gluten Free
       <div class="input">
@@ -48,7 +52,7 @@ function App() {
     <div class="container">
     <div class="row">
       <div class="col">
-      <img src={images} alt="vegan" class="rounded-circle" />
+      <img src={vegan} alt="vegan" class="rounded-circle" />
       <br />
         Vegan
         <div class="input">
@@ -56,7 +60,7 @@ function App() {
         </div>
       </div>
       <div class="col">
-      <img src={images} alt="vegaetarian" class="rounded-circle" />
+      <img src={vegetarian} alt="vegaetarian" class="rounded-circle" />
       <br />
         vegetarian
         <div class="input">
