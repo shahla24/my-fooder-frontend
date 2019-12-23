@@ -4,7 +4,7 @@ import TaskItem from './TaskItem';
 import Restaurants from './Restaurants';
 import Booking from './Booking';
 import "./App.css";
-import Icon from 'react';
+//import Icon from 'react';
 import { render } from '@testing-library/react';
 
 
@@ -26,11 +26,11 @@ function App() {
     <TaskItem />
     <Restaurants />
     <Booking />
-    <Icon />
+  
 
     </div>
-  </div>
   
+  </div>
   
   
   );

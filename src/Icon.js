@@ -1,17 +1,17 @@
-import React from 'react';
+// import React from 'react';
 
 
-class Icon extends React.Component {
+// class Icon extends React.Component {
 
-    render() {
+//     render() {
 
-        return (
-            <h1>
-                <header className="Fooder"></header>
-            </h1>
-        );
-    }
- }
+//         return (
+//             <h1>
+//                 <header className="Fooder"></header>
+//             </h1>
+//         );
+//     }
+//  }
     
 
-export default Icon;
+// export default Icon;
