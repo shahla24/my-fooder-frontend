@@ -26,11 +26,6 @@ function App() {
   <p>We help you navigate the ever changing food scene. Your best friend now joined the V-gang? No problem! </p>
   <p>Your cousin has recently been diagnosed with coeliac? You only eat fish?</p>
   <p>FOODERS are especially for you</p>
-<<<<<<< HEAD
-=======
-  <br />
-  <br />
->>>>>>> 10407e109841ba55b4d7133037b12f98b6ed842b
   <div class="row">
     <div class="col-sm">
     <img src={hala} alt="halal" class="rounded-circle" />
